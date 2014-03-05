@@ -23,7 +23,10 @@ module.exports = function selectorLimit(ast) {
 };
 
 /**
- * Module export
+ * Call a given function on every rule in the tree
+ *
+ * @param {Object} node
+ * @param {Function} fn
  */
 
 function walk(node, fn) {
