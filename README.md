@@ -2,7 +2,9 @@
 
 [![Build Status](https://secure.travis-ci.org/reworkcss/rework-ie-limits.png?branch=master)](http://travis-ci.org/reworkcss/rework-ie-limits)
 
-A [Rework](https://github.com/reworkcss/rework) plugin that tests whether a chunk of CSS exceeds IE < 10's limit of 4095 selectors.
+A [Rework](https://github.com/reworkcss/rework) plugin that tests whether a
+chunk of CSS exceeds IE < 10's limit of [4095
+selectors](http://blogs.msdn.com/b/ieinternals/archive/2011/05/14/10164546.aspx).
 
 ## Installation
 
