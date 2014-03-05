@@ -1,7 +1,7 @@
 {
   "name": "rework-ie-limits",
   "description": "A Rework plugin to check if the number of CSS selectors in a file exceeds the limit for IE < 10",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "index.js",
   "files": [
     "index.js"
