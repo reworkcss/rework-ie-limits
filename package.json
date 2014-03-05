@@ -1,0 +1,26 @@
+{
+  "name": "rework-ie-limits",
+  "description": "A Rework plugin to check if the number of CSS selectors in a file exceeds the limit for IE < 10",
+  "version": "0.1.0",
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "~1.8.1",
+    "mocha": "~1.16.2",
+    "rework": "~0.20.2"
+  },
+  "scripts": {
+    "test": "mocha --no-colors --reporter spec",
+    "watch": "mocha --watch --reporter spec"
+  },
+  "license": "MIT",
+  "repository": "reworkcss/rework-mixin-opacity",
+  "keywords": [
+    "rework",
+    "style",
+    "stylesheet",
+    "css",
+    "ie",
+    "selector",
+    "limit"
+  ]
+}
