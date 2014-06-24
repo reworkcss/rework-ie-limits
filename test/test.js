@@ -4,7 +4,7 @@
  * Test dependencies
  */
 
-var expect = require('chai').expect;
+var assert = require('assert');
 var fs = require('fs');
 var selectorLimit = require('../.');
 var rework = require('rework');
@@ -22,7 +22,7 @@ describe('IE selector limit plugin', function () {
       rework(underLimit).use(selectorLimit);
     };
 
-    expect(output).not.to.Throw();
+    assert.doesNotThrow(output);
   });
 
   it('should throw an Error when the selector limit is exceeded', function () {
@@ -30,6 +30,6 @@ describe('IE selector limit plugin', function () {
       rework(overLimit).use(selectorLimit);
     };
 
-    expect(output).to.Throw();
+    assert.throws(output);
   });
 });
