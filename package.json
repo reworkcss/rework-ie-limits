@@ -16,7 +16,7 @@
     "watch": "mocha --watch --reporter spec"
   },
   "license": "MIT",
-  "repository": "reworkcss/rework-mixin-opacity",
+  "repository": "reworkcss/rework-ie-limits",
   "keywords": [
     "rework",
     "style",
